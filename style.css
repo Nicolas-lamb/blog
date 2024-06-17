@@ -11,6 +11,7 @@ body{
     background-color: #28263a;
     min-height: 100vh;
 }
+
 #riot{
     font-size: 40px;
     text-align: center;
@@ -57,19 +58,18 @@ img{
 }
 #title{
     color: #d73440;
-    font-size: 27px;
+    font-size: 22px;
 }
 p{
     max-width: 100%; /* Garante que o `<pre>` não exceda a largura do contêiner */
     overflow-x: auto;
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Work Sans", sans-serif;
     color: rgb(255, 255, 255);
     margin-bottom: 0px;
 }
 
 #card-row{
-
     margin: 0px 0px 0px 0px;
     border: 1px solid #83828c;
     border-radius: 8px;
@@ -77,7 +77,6 @@ p{
     padding: 0px;
    
 }
-
 
 .desc{
     color: white;
