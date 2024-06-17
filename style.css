@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;   
+}
+body{
+    overflow-x: hidden;
+}
+#area{
+    background-color: #28263a;
+    min-height: 100vh;
+}
+#riot{
+    font-size: 40px;
+    text-align: center;
+    color:white;
+}
+.titlePub{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    margin-bottom: -10px;
+    height: 100px;
+    background-color: #83828c;
+    
+}
+.descPub{
+    height: auto;
+}
+ul{
+    position: absolute;
+    gap: 45px;
+    right: 55px;
+    margin-left: 16%;  
+}
+
+#image{
+    margin: 0;
+    width: 510px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 0px;
+}
+img{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 0px;
+}
+#title{
+    color: #d73440;
+    font-size: 27px;
+}
+p{
+    max-width: 100%; /* Garante que o `<pre>` não exceda a largura do contêiner */
+    overflow-x: auto;
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+}
+
+#card-row{
+
+    margin: 0px 0px 0px 0px;
+    border: 1px solid #83828c;
+    border-radius: 8px;
+    background-color: #83828c;
+    padding: 0px;
+   
+}
+
+
+.desc{
+    color: white;
+    font-size:14px;
+    font: 200;
+    min-width: 160px;
+    font-family: "Work Sans", sans-serif;
+}
+
+
+
+#pInfo{
+    margin-bottom: 0rem;
+}
+
+#div_cards{
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 16px;
+    column-gap: 16px;
+}
+
+@media (max-width: 1000px){
+    #riot{
+        font-size: 30px;
+    }
+}
