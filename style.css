@@ -68,13 +68,13 @@ p{
     color: rgb(255, 255, 255);
     margin-bottom: 0px;
 }
-
 #card-row{
     margin: 0px 0px 0px 0px;
     border: 1px solid #83828c;
     border-radius: 8px;
     background-color: #83828c;
     padding: 0px;
+   
    
 }
 
@@ -90,6 +90,9 @@ p{
 
 #pInfo{
     margin-bottom: 0rem;
+}
+#pubDesc{
+    font-size: 50px;
 }
 
 #div_cards{
